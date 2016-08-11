@@ -8,6 +8,7 @@ namespace SamsStore.Models
 {
     public class Product
     {
+        public int ProductID { get; set; }
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long UPCCodeID { get; set; }
         public string Description { get; set; }
